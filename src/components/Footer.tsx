@@ -34,11 +34,16 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-red rounded-sm flex items-center justify-center">
-                <span className="font-display font-bold text-xl">S</span>
+              <div className="w-12 h-12 bg-gradient-red rounded-sm flex items-center justify-center overflow-hidden">
+                 <img
+                     src="/sachtalks.jpg"
+                     alt="SachTalks"
+                     className="w-full h-full object-cover"
+                    />
               </div>
+
               <div>
-                <span className="font-display font-bold text-2xl">SACH TALK</span>
+                <span className="font-display font-bold text-2xl">SACH TALKS</span>
                 <p className="text-xs text-primary-foreground/60 uppercase tracking-widest">
                   Truth First
                 </p>
