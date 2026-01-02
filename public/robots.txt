@@ -7,7 +7,8 @@ Disallow: /admin
 Disallow: /mongodb-test
 
 # Sitemap location
-Sitemap: https://sachtalks.in/sitemap.xml
+Sitemap: https://sachtalks.in/public/sitemap.xml
+
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
